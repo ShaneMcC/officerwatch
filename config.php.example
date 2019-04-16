@@ -1,0 +1,22 @@
+<?php
+
+define("CACHE", "cache/"); //Location where we store learned companies (for now)
+define('API_KEY', 'SoMeApIkEyGoEsHeRe'); //Obtained from Companies house 
+
+define("MAIL_TO", "you@example.com"); // Email address notifications are always sent to (addresses below are BCC'd)
+define("MAIL_FROM", "Officer Watch <big_brother@example.com>"); // Who is the email from?
+
+/*
+$officers[] = array(
+	'name' => 'Richard Branson',						// Friendly display name, will be used in notifications
+	'officer_id' => 'fPsul1-gLgzfRlgRvGBL14iNV3c',			 	// ID number of the office from companies house
+	'notify' => array('example@example.com', 'example2@example.com')	// Email addresses to notify
+	);
+*/
+
+$officers[] = array(
+	'name' => 'Richard Branson',
+	'officer_id' => 'fPsul1-gLgzfRlgRvGBL14iNV3c',
+	'notify' => array('example@example.com', 'example2@example.com')
+	);
+
