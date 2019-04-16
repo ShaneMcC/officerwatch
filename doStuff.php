@@ -1,11 +1,11 @@
 <?php
 
-if (!file_exists('config.php')) {
+if (!file_exists(__DIR__ . '/config.php')) {
 	echo 'Please set up config.php'.PHP_EOL;
 	die();
 }
 
-require_once('config.php');
+require_once(__DIR__ . '/config.php');
 
 foreach ($officers as $officer) {
 	echo 'Checking '.$officer['name'].'...'.PHP_EOL;

@@ -1,7 +1,7 @@
 <?php
 
-define("CACHE", "cache/"); //Location where we store learned companies (for now)
-define('API_KEY', 'SoMeApIkEyGoEsHeRe'); //Obtained from Companies house 
+define("CACHE", __DIR__ . "/cache/"); //Location where we store learned companies (for now)
+define('API_KEY', 'SoMeApIkEyGoEsHeRe'); //Obtained from Companies house
 
 define("MAIL_TO", "you@example.com"); // Email address notifications are always sent to (addresses below are BCC'd)
 define("MAIL_FROM", "Officer Watch <big_brother@example.com>"); // Who is the email from?
